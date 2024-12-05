@@ -9,7 +9,7 @@ Welcome to your new app.
 
 <script>
 	function jsFuncion(){
-		alert("Hola Mundo");
+	alert("Prueba");
 	}
 </script>
 
@@ -20,7 +20,7 @@ Welcome to your new app.
 
 		if(firstRender)
 		{
-			ijsRuntime
+			await ijsRuntime.InvokeVoidAsync("alert", "Prueba");
 		}
 	}
 }
